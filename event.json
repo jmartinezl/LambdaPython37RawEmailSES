@@ -1,0 +1,32 @@
+{
+   "body":{
+      "data":{
+         "ToAddresses":[
+            "valid_email_1@ses-verified-domain.com"
+         ],
+         "CcAddresses":[
+            "valid_email_2@ses-verified-domain.com",
+            "valid_email_3@ses-verified-domain.com"
+         ],
+         "BccAddresses":[
+            "valid_email_2@ses-verified-domain.com",
+            "valid_email_3@ses-verified-domain.com"
+         ],
+         "Body":"<HR><a href=\"http://somegreatsite.com\">Link Name</a>is a link to another nifty site<H1>This is a Header</H1><H2>This is a Medium Header</H2>Send me mail at <a href=\"mailto:support@yourcompany.com\">support@yourcompany.com</a>.<P> This is a new paragraph!<P> <B>This is a new paragraph!</B><BR> <B><I>This is a new sentence without a paragraph break, in bold italics.</I></B><HR>",
+         "Subject":"type Subject here",
+         "ReplyToAddresses":"valid_email_1@ses-verified-domain.com",
+         "sender":"Sender Name",
+         "sender_email":"test.test@ses-verified-domain.com",
+         "attachments":[
+            {
+               "Filename":"Filename1.txt",
+               "FileData":"SUQsRmlyc3ROYW1lLExhc3ROYW1lLENvdW50cnkKMzQ4LEpvaG4sU3RpbGVzLENhbmFkYQo5MjM4OSxKaWUsTGl1LENoaW5hCjczNCxTaGlybGV5LFJvZHJpZ3VleixVbml0ZWQgU3RhdGVzCjI4OTMsQW5heWEsSXllbmdhcixJbmRpYQ=="
+            },
+            {
+               "Filename":"Filename2.txt",
+               "FileData":"SUQsRmlyc3ROYW1lLExhc3ROYW1lLENvdW50cnkKMzQ4LEpvaG4sU3RpbGVzLENhbmFkYQo5MjM4OSxKaWUsTGl1LENoaW5hCjczNCxTaGlybGV5LFJvZHJpZ3VleixVbml0ZWQgU3RhdGVzCjI4OTMsQW5heWEsSXllbmdhcixJbmRpYQ=="
+            }
+         ]
+      }
+   }
+}
